@@ -1,0 +1,10 @@
+# Large game binaries: never commit (GitHub rejects files >100 MB)
+*.apk
+*.xapk
+*.apks
+*.obb
+*.aab
+# Extracted/decompiled output (regenerate with re/scripts/analyze_apk.sh)
+re/work/
+re/out/
+re/input/
