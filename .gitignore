@@ -1,0 +1,12 @@
+# ---- analysis inputs / outputs that must not be committed -------------------
+artifacts/*.apk
+artifacts/*.xml
+analysis/extracted/
+work/
+.venv/
+__pycache__/
+*.pyc
+
+# keep the small derived reports
+!analysis/out_*.json
+!analysis/out_*.txt

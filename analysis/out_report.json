@@ -1,0 +1,231 @@
+{
+  "file": "UltraLink_2.0.4.11.apk",
+  "sha256": "15c78a6e0df61d89f0c3b5ab8f5953f2182128dce6c38cdbe19ba3a6f3b153fd",
+  "package": "com.transsion.intercom",
+  "label": "UltraLink",
+  "version_name": "2.0.4.11",
+  "version_code": "20004011",
+  "min_sdk": "33",
+  "target_sdk": "35",
+  "max_sdk": null,
+  "certificate": {
+    "subject": "Email Address: android@android.com, Common Name: Android, Organizational Unit: Android, Organization: Android, Locality: Mountain View, State/Province: California, Country: US",
+    "issuer": "Email Address: android@android.com, Common Name: Android, Organizational Unit: Android, Organization: Android, Locality: Mountain View, State/Province: California, Country: US",
+    "serial_hex": "0x936eacbe07f201df",
+    "not_before": "2008-02-29 01:33:46+00:00",
+    "not_after": "2035-07-17 01:33:46+00:00",
+    "pubkey": "rsa 2048",
+    "sha256": "a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc",
+    "signed_v1": true,
+    "signed_v2": true,
+    "signed_v3": true
+  },
+  "permissions": [
+    "android.permission.ACCESS_COARSE_LOCATION",
+    "android.permission.ACCESS_FINE_LOCATION",
+    "android.permission.ACCESS_WIFI_STATE",
+    "android.permission.BLUETOOTH",
+    "android.permission.BLUETOOTH_ADMIN",
+    "android.permission.BLUETOOTH_ADVERTISE",
+    "android.permission.BLUETOOTH_CONNECT",
+    "android.permission.BLUETOOTH_PRIVILEGED",
+    "android.permission.BLUETOOTH_SCAN",
+    "android.permission.FOREGROUND_SERVICE",
+    "android.permission.FOREGROUND_SERVICE_CONNECTED_DEVICE",
+    "android.permission.FOREGROUND_SERVICE_MICROPHONE",
+    "android.permission.INTERACT_ACROSS_USERS_FULL",
+    "android.permission.LOCAL_MAC_ADDRESS",
+    "android.permission.MODIFY_AUDIO_ROUTING",
+    "android.permission.MODIFY_AUDIO_SETTINGS",
+    "android.permission.MODIFY_PHONE_STATE",
+    "android.permission.POST_NOTIFICATIONS",
+    "android.permission.READ_CONTACTS",
+    "android.permission.READ_EXTERNAL_STORAGE",
+    "android.permission.READ_PHONE_NUMBERS",
+    "android.permission.READ_PHONE_STATE",
+    "android.permission.READ_WALLPAPER_INTERNAL",
+    "android.permission.RECORD_AUDIO",
+    "android.permission.STATUS_BAR",
+    "android.permission.SYSTEM_ALERT_WINDOW",
+    "android.permission.TETHER_PRIVILEGED",
+    "android.permission.VIBRATE",
+    "android.permission.WAKE_LOCK",
+    "android.permission.WRITE_EXTERNAL_STORAGE",
+    "android.permission.WRITE_SECURE_SETTINGS",
+    "android.permission.WRITE_SETTINGS",
+    "com.transsion.intercom.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+  ],
+  "declared_permissions": [
+    "com.transsion.intercom.permission.DEVICE_PERMISSION",
+    "com.transsion.intercom.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+  ],
+  "features": [
+    "android.hardware.bluetooth_le"
+  ],
+  "main_activity": "com.transsion.intercom.view.activity.TranChatLauncherActivity",
+  "activities": [
+    "com.transsion.intercom.view.activity.MainActivity",
+    "com.transsion.intercom.view.activity.ChatActivity",
+    "com.transsion.intercom.view.activity.TranChatLauncherActivity",
+    "com.transsion.intercom.view.activity.AnswerActivity",
+    "com.transsion.intercom.view.activity.UnlinkDialogActivity",
+    "com.transsion.intercom.view.activity.ImagePreviewActivity"
+  ],
+  "services": [
+    "com.transsion.intercom.service.BtChatService",
+    "com.transsion.intercom.notification.DynamicIslandNotificationService",
+    "com.transsion.island.sdk.IslandAliveService"
+  ],
+  "receivers": [
+    "com.transsion.intercom.notification.NotificationBroadcastReceiver",
+    "androidx.profileinstaller.ProfileInstallReceiver"
+  ],
+  "providers": [
+    "com.transsion.atomiccore.hostsdk.file.provider.FileShareProvider",
+    "androidx.core.content.FileProvider",
+    "com.transsion.intercom.provider.AtomicClientProvider",
+    "androidx.startup.InitializationProvider"
+  ],
+  "dex": {
+    "classes": 3548,
+    "methods": 29790,
+    "fields": 13360,
+    "strings": 24363,
+    "top_packages": [
+      [
+        "com/transsion",
+        784
+      ],
+      [
+        "com/alibaba",
+        274
+      ],
+      [
+        "androidx/activity",
+        157
+      ],
+      [
+        "l",
+        106
+      ],
+      [
+        "com/google",
+        77
+      ],
+      [
+        "h0",
+        67
+      ],
+      [
+        "androidx/lifecycle",
+        61
+      ],
+      [
+        "M",
+        58
+      ],
+      [
+        "C3",
+        57
+      ],
+      [
+        "androidx/fragment",
+        53
+      ],
+      [
+        "io",
+        48
+      ],
+      [
+        "com/bumptech",
+        43
+      ],
+      [
+        "B0",
+        37
+      ],
+      [
+        "f",
+        35
+      ],
+      [
+        "a1",
+        34
+      ],
+      [
+        "X0",
+        34
+      ],
+      [
+        "K1",
+        31
+      ],
+      [
+        "B",
+        30
+      ],
+      [
+        "k",
+        30
+      ],
+      [
+        "0",
+        30
+      ],
+      [
+        "T0",
+        30
+      ],
+      [
+        "A2",
+        29
+      ],
+      [
+        "H1",
+        28
+      ],
+      [
+        "x2",
+        28
+      ],
+      [
+        "H3",
+        26
+      ]
+    ]
+  },
+  "size": {
+    "apk_bytes": 20279973,
+    "uncompressed_bytes": 21175606,
+    "entries": 1494,
+    "groups": {
+      "lib/": {
+        "bytes": 9213784,
+        "entries": 4
+      },
+      "assets/": {
+        "bytes": 3954519,
+        "entries": 28
+      },
+      "res/": {
+        "bytes": 1266893,
+        "entries": 1381
+      },
+      "META-INF/": {
+        "bytes": 286483,
+        "entries": 69
+      }
+    },
+    "single_files": {
+      "classes.dex": 3812816,
+      "resources.arsc": 2588680,
+      "AndroidManifest.xml": 20144
+    }
+  },
+  "native_libs": [
+    "lib/arm64-v8a/libc++_shared.so",
+    "lib/arm64-v8a/libjni_codec_transsion.so",
+    "lib/arm64-v8a/libsdk.so",
+    "lib/arm64-v8a/libtensorflowlite.so"
+  ]
+}

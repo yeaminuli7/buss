@@ -1,0 +1,7 @@
+# Analysis toolchain for the UltraLink RE workspace.
+# Python 3.10+.
+androguard>=4.1,<5
+asn1crypto>=1.5
+loguru>=0.7
+# jdk4py is only needed if you want to run a JVM-based tool (jadx, baksmali):
+# jdk4py>=17
